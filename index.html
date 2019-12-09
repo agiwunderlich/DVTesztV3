@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DaVinci Spa</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css"
+      integrity="sha256-3IkGqGYOvq1Ype2MXFwVJFeBtBACgiveho3SacOEEP8="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400|Playfair+Display:400&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row pt-5 header">
+          <div class="col mx-auto">
+            <a href="index.html"
+              ><img
+                src="images/spa-logo-white.svg"
+                class="img-fluid"
+                alt="spa-logo"
+            /></a>
+          </div>
+          <div class="col-md-6 col-12 mx-auto py-5 py-md-0">
+            <a
+              class="btn btn-lg btn-outline-warning"
+              id="contactButton"
+              href="contact.html"
+              role="button"
+              >Kapcsolat</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <section>
+      <article>
+        <div id="fullPage" >
+          <div class="section s1">
+            <h1>Simogató kényeztetés</h1>
+            <h2>testnek és léleknek</h2>
+          </div>
+          <div class="section s2">
+            <h1>A kényelem érintése</h1>
+            <h2>a wellness szerelmeseinek</h2>
+          </div>
+          <div class="section s3">
+            <h1>Pihentető luxus</h1>
+            <h2>egy masszázsmedencében</h2>
+          </div>
+        </div>
+      </article>
+    </section>
+    <script src="js/functions.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js"
+      integrity="sha256-e13jRNqOX98m6UAwI/yZTpcDseJtA8s86yfFs4Sqrv8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      new fullpage("#fullPage", {
+        autoScrolling: true,
+        navigation: true
+      });
+    </script>
+  </body>
+</html>

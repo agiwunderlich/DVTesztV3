@@ -1,0 +1,285 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Index */
+
+.header {
+  z-index: 2;
+  width: 100%;
+  position: absolute;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 6vw;
+}
+
+.s2 h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: black;
+  font-weight: 400;
+  /* font-size: 6em; */
+  font-size: 6vw;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 4vw;
+}
+
+.s2 h2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.s1 {
+  position: relative;
+  background: url("../images/1.jpg");
+  background-size: cover;
+}
+
+.s2 {
+  background: url("../images/2.jpg");
+  background-size: cover;
+}
+
+.s3 {
+  background: url("../images/3.jpg");
+  background-size: cover;
+}
+
+span {
+  background: white !important;
+}
+
+/* Contact */
+
+.contactHeader {
+  position: relative;
+  height: 550px;
+  background: url("../images/10.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.contactContainer1 {
+  text-align: center;
+}
+.contactContainer1 h2 {
+  color: black;
+  font-size: 2vw;
+}
+
+.contactContainer2 {
+  text-align: center;
+  position: relative;
+  background: url("../images/10.jpg");
+  filter: opacity(0.9);
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.contactContainer2 p {
+  color: white;
+}
+
+.contactContainer3 {
+  /* padding-top: 5rem;
+  padding-bottom: 5rem; */
+  background-color: white;
+}
+
+div.rectangle {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+}
+
+div.rectangle img {
+  margin: 16px;
+}
+
+div.phone p {
+  color: black;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+div.marker p {
+  color: black;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+table.contactDetails {
+  line-height: 0.2rem;
+}
+
+table.contactDetails tbody tr th {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+
+table.contactDetails tbody tr td {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.btn-outline-dark {
+  font-family: Montserrat;
+  font-size: 18px;
+}
+
+footer {
+  background: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  position: absolute fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: -1;
+}
+
+.ycoLogo {
+  background-image: url("../images/yco-emblema.svg");
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 1s ease;
+}
+
+.ycoLogo:hover {
+  background-image: url("../images/color.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Services */
+
+.servicesHeader {
+  position: relative;
+  height: 550px;
+  background: url("../images/9.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.servicesJumbotron {
+  background-color: black;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  position: relative;
+  z-index: 2;
+}
+
+.servicesJumbotron h1 {
+  text-align: left;
+}
+
+.servicesJumbotron hr {
+  background: darkgray;
+}
+
+.servicesJumbotron p {
+  color: darkgray;
+}
+
+.servicesContainer {
+  height: 300px;
+  width: 100%;
+  background: url("../images/9.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: opacity(0.9);
+  position: relative;
+  z-index: 2;
+}
+
+.servicesContainer h1 {
+  transform: translate(0, 80px);
+}
+
+/* Prices */
+
+.pricesHeader {
+  position: relative;
+  height: 550px;
+  background: url("../images/8.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.pricesJumbotron {
+  margin-bottom: 0px;
+  z-index: 2;
+  position: relative;
+}
+
+.pricesJumbotron h1 {
+  text-align: left;
+  color: black;
+}
+
+.pricesJumbotron hr {
+  background: darkgray;
+}
+
+.pricesContainer {
+  height: 300px;
+  width: 100%;
+  background: url("../images/8.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: opacity(0.9);
+}
+
+.pricesContainer h1 {
+  color: #191f23;
+}
+
+.tableFirst th:nth-of-type(even) {
+  text-align: end !important;
+}
+
+.tableFirst td:nth-of-type(even) {
+  text-align: end;
+}
+
+.tableSecond th:nth-of-type(3) {
+  text-align: end !important;
+}
+
+.tableSecond td:nth-of-type(3) {
+  text-align: end !important;
+}
+
+.table td,
+.table th {
+  border-top: none !important;
+}
+
+.tableSecond th:nth-of-type(3) {
+  text-align: end !important;
+}
+
+.tableSecond td:nth-of-type(3) {
+  text-align: end !important;
+}
