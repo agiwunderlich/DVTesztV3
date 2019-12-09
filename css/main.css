@@ -71,12 +71,14 @@ span {
   background-attachment: fixed;
 }
 
+
 .contactContainer1 {
   text-align: center;
 }
 .contactContainer1 h2 {
   color: black;
-  font-size: 2vw;
+  font-size: 32px;
+  padding-bottom: 2em;
 }
 
 .contactContainer2 {
@@ -91,6 +93,9 @@ span {
 
 .contactContainer2 p {
   color: white;
+  font-size: 18px;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .contactContainer3 {
