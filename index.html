@@ -83,7 +83,11 @@
     <script>
       new fullpage("#fullPage", {
         autoScrolling: true,
-        navigation: true
+        navigation: true,
+
+        onLeave: function(origin, destination, direction){
+          $("#contactButton").toggleClass("btn btn-lg btn-outline-dark");
+        }
       });
     </script>
   </body>
